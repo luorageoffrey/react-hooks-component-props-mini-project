@@ -53,6 +53,10 @@ article p {
   margin-top: 0.25rem;
 }
 
+aside > p {
+  max-width: 350px;
+}
+
 article h3 {
   color: var(--link);
   margin-bottom: 0rem;
