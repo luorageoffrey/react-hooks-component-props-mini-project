@@ -31,11 +31,11 @@ function App() {
   )
 
   return (
-    <>
+    <div className="App">
       <Header/>
       <About imgsrc={intro.imgSrc}   text={intro.text} link={intro.link} more_text={intro.more_text} name={intro.name}/>
       {articleList}
-    </>  
+    </div>  
     
   );
 }
