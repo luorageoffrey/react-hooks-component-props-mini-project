@@ -18,10 +18,11 @@ function App() {
   
   }
 
-  const articleList = blogData.posts.map((post)=>{
+  const articleList = blogData.posts.map((post, index)=>{
     
-    return <ArticleList     
-          title={post.title}
+    return <ArticleList
+          key = {index}     
+          title ={post.title}
           date={post.created}
           preview={post.preview}
           minutes={post.minutes}

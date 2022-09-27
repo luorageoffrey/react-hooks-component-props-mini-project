@@ -7,9 +7,7 @@ function ArticleList({title, date="January 1, 1970", preview,minutes}){
     let icons = []
     if(minutes <= 30){
 
-        let numIcons = Math.floor(minutes / 5)
-
-        
+        let numIcons = Math.floor(minutes / 5)        
             
         for(let x=0; x<=numIcons;x++){
             icons.push('☕️')
@@ -25,7 +23,6 @@ function ArticleList({title, date="January 1, 1970", preview,minutes}){
         }
 
     }
-
 
     return (
         <>
